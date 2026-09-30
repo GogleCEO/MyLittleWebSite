@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Что такое CMS | CMS-Hub</title>
+  <meta name="description" content="CMS (система управления контентом) — информационная система для создания, редактирования и управления содержимым сайта. Основные функции, виды и типы WCMS.">
+  <meta name="keywords" content="CMS, система управления контентом, WCMS, ECM, управление сайтом, контент">
+
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="columns">
+        <div class="column col-4 col-md-6 col-sm-9">
+          <a href="index.html" class="logo-cms">
+            <img src="img/logo.svg" alt="Логотип CMS-Hub" class="logo-img" width="40" height="40">
+            <span class="logo-text">CMS-Hub</span>
+          </a>
+        </div>
+        <div class="column col-8 col-md-6 col-sm-3">
+          <button class="btn btn-link burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+            <i class="icon icon-menu"></i>
+          </button>
+          <nav class="main-nav" id="mainNav" aria-label="Основная навигация">
+            <ul class="nav">
+              <li class="nav-item"><a href="index.html">Главная</a></li>
+              <li class="nav-item"><a href="aboutCMS.html" class="active">О CMS</a></li>
+              <li class="nav-item"><a href="woocommerce.html">WooCommerce</a></li>
+              <li class="nav-item"><a href="shopify.html">Shopify</a></li>
+              <li class="nav-item"><a href="magento.html">Magento</a></li>
+              <li class="nav-item"><a href="comparison.html">Сравнение</a></li>
+              <li class="nav-item"><a href="cases.html">Кейсы</a></li>
+              <li class="nav-item"><a href="faq.html">FAQ</a></li>
+              <li class="nav-item"><a href="contacts.html">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container main-wrapper">
+    <div class="columns">
+
+      <main class="column col-9 col-md-12">
+
+        <nav aria-label="Хлебные крошки" class="breadcrumbs">
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+            <li class="breadcrumb-item active">О CMS</li>
+          </ul>
+        </nav>
+
+        <h1>Что такое CMS?</h1>
+
+        <p class="lead">
+          <strong>Система управления контентом</strong>
+          (англ. <em>Content management system</em>, <strong>CMS</strong>,
+          система управления содержимым) — информационная система или компьютерная
+          программа, используемая для обеспечения и организации совместного процесса
+          создания, редактирования и управления контентом (от англ. <em>content</em>),
+          иначе — содержимым.
+        </p>
+
+        <section aria-labelledby="components-title">
+          <h2 id="components-title">Из чего состоит CMS</h2>
+          <p>
+            CMS обычно состоит из <strong>двух основных компонентов</strong>:
+          </p>
+
+          <div class="card-grid">
+            <article class="cms-card">
+              <h3>CMA — приложение управления</h3>
+              <p>
+                <strong>Content Management Application</strong> — внешний
+                пользовательский интерфейс, позволяющий пользователю добавлять,
+                изменять и удалять контент с веб-сайта <strong>без вмешательства
+                веб-мастера</strong>.
+              </p>
+            </article>
+
+            <article class="cms-card">
+              <h3>CDA — приложение доставки</h3>
+              <p>
+                <strong>Content Delivery Application</strong> — компилирует
+                контент и обновляет веб-сайт.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section aria-labelledby="functions-title">
+          <h2 id="functions-title">Основные функции CMS</h2>
+          <ul class="feature-list">
+            <li>Предоставление инструментов для создания контента, организация совместной работы над контентом.</li>
+            <li>Управление контентом: хранение, контроль версий, соблюдение режима доступа, управление потоком документов.</li>
+            <li>Публикация контента.</li>
+            <li>Представление информации в виде, удобном для навигации, поиска.</li>
+          </ul>
+
+          <p>
+            В системе управления контентом могут находиться самые различные данные:
+            документы, фильмы, фотографии, номера телефонов, научные данные и так далее.
+            Такая система часто используется для хранения, управления, пересмотра
+            и публикации документации. <strong>Контроль версий</strong> является одной
+            из важных возможностей, когда контент изменяется группой лиц.
+          </p>
+        </section>
+
+        <section aria-labelledby="types-title">
+          <h2 id="types-title">Виды CMS</h2>
+          <p>
+            В общем случае системы управления контентом делятся на два класса:
+          </p>
+
+          <div class="card-grid">
+            <article class="cms-card">
+              <h3>ECM — корпоративные</h3>
+              <p>
+                <strong>Enterprise Content Management System</strong> — для работы
+                с контентом <em>внутри</em> какой-либо организации.
+              </p>
+            </article>
+
+            <article class="cms-card">
+              <h3>WCMS — для веб-сайтов</h3>
+              <p>
+                <strong>Web Content Management System</strong> — для поддержки
+                работы веб-сайта.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section aria-labelledby="wcms-title">
+          <h2 id="wcms-title">Системы управления веб-содержимым (WCMS)</h2>
+          <p>
+            WCMS позволяют управлять текстовым и графическим наполнением веб-сайта,
+            предоставляя пользователю интерфейс для работы с содержимым сайта, удобные
+            инструменты хранения и публикации информации, автоматизируя процессы
+            размещения информации в базах данных и её выдачи в HTML.
+          </p>
+          <p>
+            Существует множество готовых систем управления содержимым сайта, в том
+            числе и бесплатных. Их можно разделить на <strong>три типа по способу
+            работы</strong>.
+          </p>
+        </section>
+
+        <section aria-labelledby="generation-title">
+          <h2 id="generation-title">Типы WCMS по способу генерации страниц</h2>
+
+          <div class="card-grid">
+            <article class="cms-card">
+              <h3>1. Генерация по запросу</h3>
+              <p>
+                Системы такого типа работают на основе связки
+                «<em>модуль редактирования → база данных → модуль представления</em>».
+                Модуль представления генерирует страницу с содержанием при запросе
+                на него, на основе информации из базы данных. Информация в базе данных
+                изменяется с помощью модуля редактирования. Страницы заново создаются
+                сервером при каждом запросе, что создаёт дополнительную нагрузку
+                на системные ресурсы.
+              </p>
+              <p>
+                <strong>Нагрузка может быть многократно снижена</strong> при
+                использовании средств кэширования, которые имеются в современных
+                веб-серверах.
+              </p>
+            </article>
+
+            <article class="cms-card">
+              <h3>2. Генерация при редактировании</h3>
+              <p>
+                Системы этого типа служат для редактирования страниц, которые
+                при внесении изменений в содержание сайта создают
+                <strong>набор статических страниц</strong>. При таком способе
+                в жертву приносится интерактивность между посетителем
+                и содержимым сайта.
+              </p>
+            </article>
+
+            <article class="cms-card">
+              <h3>3. Смешанный тип</h3>
+              <p>
+                Как понятно из названия, сочетает в себе преимущества первых двух.
+                Может быть реализован путём <strong>кэширования</strong> — модуль
+                представления генерирует страницу один раз, в дальнейшем она
+                в несколько раз быстрее подгружается из кэша. Кэш может обновляться
+                автоматически (по истечении срока или при изменениях) либо вручную
+                по команде администратора.
+              </p>
+              <p>
+                Другой подход — <strong>сохранение отдельных информационных блоков</strong>
+                на этапе редактирования сайта и сборка страницы из этих блоков
+                при запросе соответствующей страницы пользователем.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section aria-labelledby="modules-title">
+          <h2 id="modules-title">Модульная архитектура WCMS</h2>
+          <p>
+            Ряд тиражируемых WCMS имеет <strong>модульную архитектуру</strong>:
+            модули можно подключать или не использовать. Некоторые возможные модули:
+          </p>
+
+          <ul class="feature-list">
+            <li>Динамическое меню</li>
+            <li>Блог</li>
+            <li>Новости</li>
+            <li>Опросы</li>
+            <li>Поиск по сайту</li>
+            <li>Статистика посещений</li>
+            <li>Гостевая книга</li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="summary-title">
+          <h2 id="summary-title">Краткая сводка</h2>
+          <table class="comparison">
+            <caption>Классификация систем управления контентом</caption>
+            <thead>
+              <tr>
+                <th scope="col">Тип</th>
+                <th scope="col">Назначение</th>
+                <th scope="col">Примеры</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">ECM</th>
+                <td>Управление контентом внутри организации</td>
+                <td>SharePoint, Alfresco, 1С:Документооборот</td>
+              </tr>
+              <tr>
+                <th scope="row">WCMS</th>
+                <td>Поддержка работы веб-сайта</td>
+                <td>WordPress, Joomla, Drupal, Bitrix</td>
+              </tr>
+              <tr>
+                <th scope="row">E-commerce CMS</th>
+                <td>Интернет-магазины</td>
+                <td>WooCommerce, Shopify, Magento</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <nav class="cms-nav" aria-label="Переход между разделами">
+          <a href="index.html" class="btn btn-link">← На главную</a>
+          <a href="woocommerce.html" class="btn btn-primary">Далее: WooCommerce →</a>
+        </nav>
+
+      </main>
+
+      <aside class="column col-3 col-md-12">
+
+        <div class="widget">
+          <h3>Разделы сайта</h3>
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">Что такое CMS?</a></li>
+            <li><a href="woocommerce.html">WooCommerce</a></li>
+            <li><a href="shopify.html">Shopify</a></li>
+            <li><a href="magento.html">Magento</a></li>
+            <li><a href="comparison.html">Сравнение CMS</a></li>
+          </ul>
+        </div>
+
+        <div class="widget">
+          <h3>Ключевые термины</h3>
+          <ul>
+            <li><strong>CMS</strong> — система управления контентом</li>
+            <li><strong>CMA</strong> — приложение управления</li>
+            <li><strong>CDA</strong> — приложение доставки</li>
+            <li><strong>ECM</strong> — корпоративная CMS</li>
+            <li><strong>WCMS</strong> — CMS для сайта</li>
+          </ul>
+        </div>
+
+        <div class="widget">
+          <h3>Подписка на новости</h3>
+          <form action="#" method="post">
+            <label class="form-label" for="sub-email">Ваш e-mail</label>
+            <input type="email" id="sub-email" class="form-input"
+                   placeholder="you@example.com" required>
+            <button type="submit" class="btn btn-primary btn-block" style="margin-top:.5rem;">
+              Подписаться
+            </button>
+          </form>
+        </div>
+
+        <div class="widget" style="background:#fff3e0;">
+          <h3>Совет</h3>
+          <p style="margin:0;font-size:.9rem;">
+            Если вы только начинаете — выбирайте CMS с большим сообществом
+            (WordPress, WooCommerce). Это упростит поиск решений и подрядчиков.
+          </p>
+        </div>
+
+      </aside>
+
+    </div>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="columns">
+        <div class="column col-4 col-md-6 col-sm-12">
+          <h4>CMS-Hub</h4>
+          <p>Независимый обзор CMS-платформ для электронной коммерции: WooCommerce, Shopify, Magento.</p>
+        </div>
+        <div class="column col-4 col-md-6 col-sm-12">
+          <h4>Разделы</h4>
+          <ul style="list-style:none;padding:0;">
+            <li><a href="about.html">О CMS</a></li>
+            <li><a href="comparison.html">Сравнение</a></li>
+            <li><a href="cases.html">Кейсы</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="column col-4 col-md-6 col-sm-12">
+          <h4>Контакты</h4>
+          <p>Email: <a href="mailto:info@cms-hub.ru">info@cms-hub.ru</a></p>
+          <p>Тел: <a href="tel:+78001234567">+7 (800) 123-45-67</a></p>
+        </div>
+      </div>
+      <div class="copyright">
+        © 2026 CMS-Hub. Все права защищены.
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

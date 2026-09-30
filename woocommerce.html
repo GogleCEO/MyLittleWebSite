@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WooCommerce | CMS-Hub</title>
+  <meta name="description" content="WooCommerce — бесплатная платформа электронной коммерции с открытым исходным кодом для WordPress. Обзор возможностей, инструментов продаж, интеграций и сообщества.">
+  <meta name="keywords" content="WooCommerce, WordPress, электронная коммерция, CMS, интернет-магазин, плагин">
+
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="columns">
+        <div class="column col-3 col-md-6 col-sm-9">
+          <a href="index.html" class="logo-cms">
+            <img src="img/logo.svg" alt="Логотип CMS-Hub" class="logo-img" width="40" height="40">
+            <span class="logo-text">CMS-Hub</span>
+          </a>
+		  
+        </div>
+        <div class="column col-9 col-md-6 col-sm-3">
+          <button class="btn btn-link burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+            <i class="icon icon-menu"></i>
+          </button>
+          <nav class="main-nav" id="mainNav" aria-label="Основная навигация">
+            <ul class="nav">
+              <li class="nav-item"><a href="index.html">Главная</a></li>
+              <li class="nav-item"><a href="aboutCMS.html">О CMS</a></li>
+              <li class="nav-item"><a href="woocommerce.html" class="active">WooCommerce</a></li>
+              <li class="nav-item"><a href="shopify.html">Shopify</a></li>
+              <li class="nav-item"><a href="magento.html">Magento</a></li>
+              <li class="nav-item"><a href="comparison.html">Сравнение</a></li>
+              <li class="nav-item"><a href="cases.html">Кейсы</a></li>
+              <li class="nav-item"><a href="faq.html">FAQ</a></li>
+              <li class="nav-item"><a href="contacts.html">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container main-wrapper">
+    <div class="columns">
+
+      <main class="column col-9 col-md-12">
+
+        <nav aria-label="Хлебные крошки" class="breadcrumbs">
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+            <li class="breadcrumb-item"><a href="about.html">О CMS</a></li>
+            <li class="breadcrumb-item active">WooCommerce</li>
+          </ul>
+        </nav>
+
+        <h1>WooCommerce — платформа электронной коммерции для WordPress</h1>
+
+        <div class="hero-cms">
+          <img src="img/woocommerce.webp"
+               alt="Логотип WooCommerce"
+               title="WooCommerce"
+               class="cms-logo-large"
+               width="120" height="120"
+               loading="lazy">
+          <p class="lead">
+            <strong>WooCommerce</strong> — это платформа электронной коммерции для WordPress
+            с открытым исходным кодом. Наша гибкая и бесплатная базовая платформа работает
+            при поддержке глобального сообщества.
+          </p>
+        </div>
+
+        <p>
+          Свобода, предоставляемая открытым исходным кодом, означает, что вы сохраняете
+          <strong>полный контроль над содержимым и базой данных своего магазина</strong>.
+          Используйте WooCommerce, создавая новый бизнес, перенося физический магазин
+          в Интернет или разрабатывая клиентские сайты, для мощной интеграции
+          информационных и коммерческих ресурсов.
+        </p>
+
+        <section aria-labelledby="features-title">
+          <h2 id="features-title">Ключевые возможности</h2>
+          <ul class="feature-list">
+            <li>Разрабатывайте стильные и оригинальные виртуальные витрины на основе тем, соответствующих вашему бренду и отрасли.</li>
+            <li>Увеличьте доход с помощью оптимизированной корзины, которая упрощает покупку.</li>
+            <li>Меняйте оформление страниц товаров за считанные минуты с помощью модульных блоков товаров.</li>
+            <li>Предлагайте физические и цифровые товары и их варианты, пользовательские конфигурации, моментальные загрузки и связанные позиции.</li>
+            <li>Продавайте подписку, бронирование или членство с помощью расширений, проверенных разработчиками.</li>
+            <li>Поднимитесь в топ поисковых результатов, эффективно используя возможности WordPress SEO.</li>
+            <li>Работайте на платформе, готовой к масштабированию. Получите гибкое решение электронной коммерции для создания больших интернет-магазинов.</li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="tools-title">
+          <h2 id="tools-title">Все инструменты, необходимые для продаж</h2>
+          <p>
+            Встроенные инструменты и интеграция с популярными ресурсами помогут вам эффективно
+            управлять бизнес-операциями. Многие службы можно добавлять бесплатно одним щелчком
+            мыши через опционный мастер настройки.
+          </p>
+
+          <div class="card-grid">
+            <article class="cms-card">
+              <h3>Приём платежей</h3>
+              <p>
+                Выберите, как вы хотите получать оплату. Удобно управляйте платежами прямо из
+                вашего магазина с помощью <strong>WooPayments</strong> (доступно в США,
+                Великобритании, Ирландии, Австралии, Новой Зеландии, Канаде, Испании, Франции,
+                Германии и Италии). Безопасно принимайте кредитные карты, мобильные кошельки,
+                банковские переводы и наличные благодаря <strong>100+ платёжным шлюзам</strong> —
+                включая Stripe, PayPal и Square.
+              </p>
+            </article>
+
+            <article class="cms-card">
+              <h3>Доставка</h3>
+              <p>
+                Настройте варианты доставки. Печатайте почтовые этикетки прямо с панели
+                администратора и планируйте самовывоз в <strong>WooCommerce Shipping</strong>
+                (только для США). Воспользуйтесь услугами популярных перевозчиков, например
+                UPS и FedEx, а также местных компаний, занимающихся доставкой, хранением
+                товаров и выполнением заказов.
+              </p>
+            </article>
+
+            <article class="cms-card">
+              <h3>Налоги</h3>
+              <p>
+                Упрощение учёта налога с продаж. Добавьте <strong>WooCommerce Tax</strong>
+                или аналогичные интегрируемые службы, чтобы автоматизировать расчёты.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section aria-labelledby="growth-title">
+          <h2 id="growth-title">Развивайте бизнес и контролируйте продажи</h2>
+          <p>
+            <strong>WooCommerce — это бизнес.</strong> Следите за наиболее важными показателями
+            производительности с помощью мощной и гибкой центральной панели мониторинга,
+            встроенной в WooCommerce.
+          </p>
+          <p>
+            Расширяйте вашу аудиторию через маркетинговые и социальные каналы, используя
+            интеграцию с <strong>Google Ads, HubSpot, Mailchimp и Facebook</strong>. Вам
+            постоянно доступен встроенный в консоль <strong>Marketing Hub</strong>, на котором
+            можно найти свежие идеи и полезные рекомендации.
+          </p>
+          <p>
+            Расширьте функциональность магазина с помощью сотен бесплатных и платных расширений
+            от <strong>WooCommerce Marketplace</strong>. Наши разработчики проверяют каждое
+            новое расширение и регулярно проверяют существующие расширения, чтобы соответствовать
+            стандартам качества каталога. Мы активно занимаемся поиском продуктов, которые
+            помогут разработчикам создавать успешные магазины.
+          </p>
+          <p>
+            Управляйте магазином в любое время и в любом месте, используя бесплатное мобильное
+            приложение <strong>WooCommerce</strong> (для Android и iOS). Внимание, спойлер:
+            вы будете слышать приятный щелчок кассового аппарата после каждой новой покупки!
+          </p>
+        </section>
+
+        <!-- Данные -->
+        <section aria-labelledby="data-title">
+          <h2 id="data-title">Постоянно контролируйте и отслеживайте данные о продажах</h2>
+          <p>
+            С помощью WooCommerce <strong>ваши данные принадлежат только вам. Всегда.</strong>
+          </p>
+          <p>
+            Дав согласие поделиться с нами данными об использовании, вы можете быть уверены
+            в том, что эти данные анонимизируются и находятся в безопасности. Вы можете
+            в любое время отозвать своё согласие. Это никак не отразится на работе магазина.
+          </p>
+          <p>
+            В отличие от решений для электронной торговли, размещаемых в рабочей среде,
+            хранилище магазина WooCommerce создано с учётом дальнейшего развития. Его
+            содержимое легко экспортировать для переноса на иную платформу.
+            <strong>Без каких-либо ограничений.</strong>
+          </p>
+        </section>
+
+        <section aria-labelledby="dev-title">
+          <h2 id="dev-title">Почему разработчики выбирают (и любят) WooCommerce</h2>
+          <p>
+            Разработчики могут использовать WooCommerce для создания, настройки и масштабирования
+            магазина в соответствии с точными спецификациями, определёнными клиентом, внося
+            улучшения с помощью расширений или кастомизации.
+          </p>
+          <ul class="feature-list">
+            <li>Используйте веб-ловушки и фильтры для создания и модификации функций.</li>
+            <li>Интеграция практически любого сервиса, используя надёжный <strong>REST API</strong> и вебзацепы.</li>
+            <li>Используйте <strong>React</strong> для разработки и построения пользовательских блоков содержимого.</li>
+            <li>Проверка и изменение кода ядра плагина.</li>
+            <li>Ускорьте разработку с помощью молниеносного <strong>CLI</strong>.</li>
+          </ul>
+          <p>
+            На базовой платформе регулярно проводятся масштабные испытания. Команда разработчиков
+            трудится в нескольких часовых поясах. Подробная документация обновляется после
+            каждого выпуска, что даёт вам возможность спроектировать магазин в точном
+            соответствии с вашими потребностями.
+          </p>
+        </section>
+
+        <section aria-labelledby="community-title">
+          <h2 id="community-title">Будьте частью международного сообщества</h2>
+          <p>
+            Активные, многочисленные участники быстрорастущего сообщества WooCommerce помогают
+            добиться успехов в коммерции.
+          </p>
+          <p>
+            По всему миру организуются <strong>встречи WooCommerce</strong>. Вы можете посещать
+            их бесплатно и принимать участие в их работе. Эти мероприятия дают возможность
+            познакомиться с единомышленниками, поделиться собственными знаниями и изучить
+            опыт других.
+          </p>
+          <p>
+            Также WooCommerce является постоянным участником <strong>WordCamp</strong>
+            в разных регионах. Будем рады встретиться с вами.
+          </p>
+
+          <h3>Вносите собственный вклад, делайте переводы</h3>
+          <p>
+            Разработку и поддержку WooCommerce осуществляет компания <strong>Automattic</strong>,
+            создатель WordPress.com и Jetpack. Также с нами работают сотни независимых
+            соавторов, и всегда есть перспективы для роста. Откройте репозиторий
+            <strong>WooCommerce GitHub</strong>, чтобы узнать, какой вклад вы можете внести.
+          </p>
+          <p>
+            Материалы WooCommerce переведены на разные языки, включая датский, украинский
+            и персидский. Способствуйте локализации WooCommerce, добавив ваш местный язык
+            на <strong>translate.wordpress.org</strong>.
+          </p>
+        </section>
+
+        <section aria-labelledby="connect-title">
+          <h2 id="connect-title">Подключение к WooCommerce.com</h2>
+          <p>
+            Вы можете подключить свой магазин к <strong>WooCommerce.com</strong>, чтобы
+            управлять подписками на WooCommerce Marketplace и получать обновления продуктов,
+            не покидая консоли WordPress. Подключение также даст вам возможность устанавливать
+            приобретённые продукты непосредственно с WooCommerce.com и упростит доступ
+            к технической поддержке. Если вы хотите подробнее узнать о том, какие данные
+            и с какими целями мы собираем, ознакомьтесь с нашей Политикой конфиденциальности.
+          </p>
+        </section>
+
+        <section aria-labelledby="specs-title">
+          <h2 id="specs-title">Краткая справка</h2>
+          <table class="comparison">
+            <caption>Основные характеристики WooCommerce</caption>
+            <tbody>
+              <tr>
+                <th scope="row">Тип</th>
+                <td>Плагин для WordPress (Open Source)</td>
+              </tr>
+              <tr>
+                <th scope="row">Стоимость базовой версии</th>
+                <td>Бесплатно</td>
+              </tr>
+              <tr>
+                <th scope="row">Лицензия</th>
+                <td>GPL (открытый исходный код)</td>
+              </tr>
+              <tr>
+                <th scope="row">Разработчик</th>
+                <td>Automattic</td>
+              </tr>
+              <tr>
+                <th scope="row">Платёжные шлюзы</th>
+                <td>100+ (Stripe, PayPal, Square, WooPayments)</td>
+              </tr>
+              <tr>
+                <th scope="row">Мобильное приложение</th>
+                <td>Android и iOS</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <nav class="cms-nav" aria-label="Переход между CMS">
+          <a href="about.html" class="btn btn-link">← О CMS</a>
+          <a href="shopify.html" class="btn btn-primary">Далее: Shopify →</a>
+        </nav>
+
+      </main>
+
+      <aside class="column col-3 col-md-12">
+
+        <div class="widget">
+          <h3>Навигация по разделу</h3>
+          <ul>
+            <li><a href="aboutCMS.html">Что такое CMS?</a></li>
+            <li><a href="woocommerce.html">WooCommerce</a></li>
+            <li><a href="shopify.html">Shopify</a></li>
+            <li><a href="magento.html">Magento</a></li>
+            <li><a href="comparison.html">Сравнительная таблица</a></li>
+          </ul>
+        </div>
+
+        <div class="widget">
+          <h3>Подписка на новости</h3>
+          <form action="#" method="post">
+            <label class="form-label" for="sub-email">Ваш e-mail</label>
+            <input type="email" id="sub-email" class="form-input"
+                   placeholder="you@example.com" required>
+            <button type="submit" class="btn btn-primary btn-block" style="margin-top:.5rem;">
+              Подписаться
+            </button>
+          </form>
+        </div>
+
+        <div class="widget" style="background:#fff3e0;">
+          <h3>Совет недели</h3>
+          <p style="margin:0;font-size:.9rem;">
+            Для магазинов до 1000 товаров WooCommerce — оптимальный выбор: бесплатно,
+            гибко и с полным контролем над данными.
+          </p>
+        </div>
+
+      </aside>
+
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="columns">
+        <div class="column col-4 col-md-6 col-sm-12">
+          <h4>CMS-Hub</h4>
+          <p>Независимый обзор CMS-платформ для электронной коммерции: WooCommerce, Shopify, Magento.</p>
+        </div>
+        <div class="column col-4 col-md-6 col-sm-12">
+          <h4>Разделы</h4>
+          <ul style="list-style:none;padding:0;">
+            <li><a href="aboutCMS.html">О CMS</a></li>
+            <li><a href="comparison.html">Сравнение</a></li>
+            <li><a href="cases.html">Кейсы</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="column col-4 col-md-6 col-sm-12">
+          <h4>Контакты</h4>
+          <p>Email: <a href="mailto:info@cms-hub.ru">info@cms-hub.ru</a></p>
+          <p>Тел: <a href="tel:+78001234567">+7 (800) 123-45-67</a></p>
+        </div>
+      </div>
+      <div class="copyright">
+        © 2026 CMS-Hub. Все права защищены.
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magento — корпоративная CMS для крупных магазинов | CMS-Hub</title>
+  <meta name="description" content="Magento (Adobe Commerce) — мощная платформа электронной коммерции для крупных интернет-магазинов и B2B. Обзор архитектуры, редакций и требований.">
+  <meta name="keywords" content="Magento, Adobe Commerce, электронная коммерция, CMS, B2B, enterprise">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="columns">
+        <div class="column col-4 col-md-6 col-sm-9">
+          <a href="index.html" class="logo-cms">
+            <img src="img/logo.svg" alt="Логотип CMS-Hub" class="logo-img" width="40" height="40">
+            <span class="logo-text">CMS-Hub</span>
+          </a>
+        </div>
+        <div class="column col-8 col-md-6 col-sm-3">
+          <button class="btn btn-link burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+            <i class="icon icon-menu"></i>
+          </button>
+          <nav class="main-nav" id="mainNav" aria-label="Основная навигация">
+            <ul class="nav">
+              <li class="nav-item"><a href="index.html">Главная</a></li>
+              <li class="nav-item"><a href="aboutCMS.html">О CMS</a></li>
+              <li class="nav-item"><a href="woocommerce.html">WooCommerce</a></li>
+              <li class="nav-item"><a href="shopify.html">Shopify</a></li>
+              <li class="nav-item"><a href="magento.html" class="active">Magento</a></li>
+              <li class="nav-item"><a href="comparison.html">Сравнение</a></li>
+              <li class="nav-item"><a href="cases.html">Кейсы</a></li>
+              <li class="nav-item"><a href="faq.html">FAQ</a></li>
+              <li class="nav-item"><a href="contacts.html">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container main-wrapper">
+    <div class="columns">
+
+      <main class="column col-9 col-md-12">
+
+        <nav aria-label="Хлебные крошки" class="breadcrumbs">
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+            <li class="breadcrumb-item"><a href="about.html">О CMS</a></li>
+            <li class="breadcrumb-item active">Magento</li>
+          </ul>
+        </nav>
+
+        <h1>Magento — платформа для крупной электронной коммерции</h1>
+
+        <div class="hero-cms">
+          <img src="img/magento.webp"
+               alt="Логотип Magento"
+               title="Magento"
+               class="cms-logo-large"
+               width="120" height="120"
+               loading="lazy">
+          <p class="lead">
+            <strong>Magento</strong> (с 2021 года — <strong>Adobe Commerce</strong>) —
+            мощная платформа электронной коммерции с открытым исходным кодом,
+            ориентированная на крупные интернет-магазины, маркетплейсы и B2B-проекты.
+          </p>
+        </div>
+
+        <section aria-labelledby="what-title">
+          <h2 id="what-title">Что такое Magento</h2>
+          <p>
+            Magento — это <strong>высоконагруженная CMS для электронной коммерции</strong>,
+            написанная на PHP на базе фреймворка Zend / Laminas. Платформа рассчитана
+            на магазины с десятками тысяч товаров, миллионами посетителей и сложной
+            логикой ценообразования.
+          </p>
+          <p>
+            Существует в двух редакциях: <strong>Magento Open Source</strong> (бесплатная)
+            и <strong>Adobe Commerce</strong> (коммерческая, с расширенными возможностями
+            и поддержкой). Для запуска обычно требуется команда квалифицированных
+            разработчиков.
+          </p>
+        </section>
+
+        <section aria-labelledby="features-title">
+          <h2 id="features-title">Ключевые возможности</h2>
+          <ul class="feature-list">
+            <li>Поддержка нескольких витрин, языков и валют в одном магазине.</li>
+            <li>Гибкая система каталога: настраиваемые атрибуты, категории, наборы атрибутов.</li>
+            <li>Расширенные правила ценообразования и акций.</li>
+            <li>B2B-функции: прайс-листы, компании, роли, согласование заказов.</li>
+            <li>Мощный REST и GraphQL API для интеграций.</li>
+            <li>Page Builder для визуального редактирования страниц.</li>
+            <li>Встроенная поддержка CDN, Elasticsearch, Redis, Varnish.</li>
+            <li>Мультискладская логистика и управление запасами.</li>
+            <li>Маркетплейс расширений и тем от Adobe и сторонних разработчиков.</li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="editions-title">
+          <h2 id="editions-title">Редакции Magento</h2>
+
+          <div class="card-grid">
+            <article class="cms-card">
+              <h3>Magento Open Source</h3>
+              <p><strong>Бесплатно</strong></p>
+              <ul class="feature-list">
+                <li>Полный код платформы</li>
+                <li>Базовые функции магазина</li>
+                <li>Сообщество и маркетплейс</li>
+                <li>Разработка и поддержка — своими силами</li>
+              </ul>
+            </article>
+
+            <article class="cms-card">
+              <h3>Adobe Commerce</h3>
+              <p><strong>от $22 000/год</strong></p>
+              <ul class="feature-list">
+                <li>Облачный хостинг Adobe</li>
+                <li>Расширенная аналитика и AI</li>
+                <li>B2B-модули</li>
+                <li>Официальная поддержка</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section aria-labelledby="requirements-title">
+          <h2 id="requirements-title">Требования к серверу</h2>
+          <p>
+            Magento предъявляет высокие требования к инфраструктуре. Минимальная
+            конфигурация для продакшена:
+          </p>
+          <ul class="feature-list">
+            <li>PHP 8.2+ с набором расширений (bcmath, ctype, curl, gd, intl, mbstring, openssl, pdo_mysql, soap, xsl, zip).</li>
+            <li>MySQL 8.0+ или MariaDB 10.6+.</li>
+            <li>Elasticsearch или OpenSearch для поиска и каталога.</li>
+            <li>Redis для кэша и сессий.</li>
+            <li>Varnish или встроенный Full Page Cache.</li>
+            <li>Выделенный сервер или облако с 4+ ГБ RAM (для крупных проектов — существенно больше).</li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="proscons-title">
+          <h2 id="proscons-title">Плюсы и минусы</h2>
+
+          <div class="card-grid">
+            <article class="cms-card">
+              <h3>Преимущества</h3>
+              <ul class="feature-list">
+                <li>Высокая масштабируемость</li>
+                <li>Гибкая архитектура</li>
+                <li>Богатый функционал из коробки</li>
+                <li>Поддержка B2B и маркетплейсов</li>
+                <li>Открытый исходный код</li>
+              </ul>
+            </article>
+
+            <article class="cms-card">
+              <h3>Недостатки</h3>
+              <ul class="feature-list">
+                <li>Высокий порог входа</li>
+                <li>Нужна команда разработчиков</li>
+                <li>Дорогое сопровождение</li>
+                <li>Требовательна к хостингу</li>
+                <li>Медленное обновление без специалистов</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section aria-labelledby="when-title">
+          <h2 id="when-title">Когда выбирать Magento</h2>
+          <ul class="feature-list">
+            <li>Каталог содержит десятки тысяч SKU.</li>
+            <li>Магазин работает на нескольких рынках и языках.</li>
+            <li>Нужны B2B-сценарии и согласование заказов.</li>
+            <li>Планируется маркетплейс или сложная логистика.</li>
+            <li>Есть бюджет на команду разработчиков и поддержку.</li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="specs-title">
+          <h2 id="specs-title">Краткая справка</h2>
+          <table class="comparison">
+            <caption>Основные характеристики Magento</caption>
+            <tbody>
+              <tr>
+                <th scope="row">Тип</th>
+                <td>Open Source + Adobe Commerce (SaaS-опция)</td>
+              </tr>
+              <tr>
+                <th scope="row">Стоимость</th>
+                <td>Бесплатно / от $22 000 в год (Enterprise)</td>
+              </tr>
+              <tr>
+                <th scope="row">Хостинг</th>
+                <td>Собственный или Adobe Cloud</td>
+              </tr>
+              <tr>
+                <th scope="row">Нужен разработчик</th>
+                <td>Обязательно</td>
+              </tr>
+              <tr>
+                <th scope="row">Технологии</th>
+                <td>PHP 8.2+, MySQL, Elasticsearch, Redis, Varnish</td>
+              </tr>
+              <tr>
+                <th scope="row">Целевая аудитория</th>
+                <td>Enterprise, B2B, маркетплейсы</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <nav class="cms-nav" aria-label="Переход между CMS">
+          <a href="shopify.html" class="btn btn-link">← Shopify</a>
+          <a href="comparison.html" class="btn btn-primary">Далее: Сравнение →</a>
+        </nav>
+
+      </main>
+
+      <aside class="column col-3 col-md-12">
+
+        <div class="widget">
+          <h3>Навигация по разделу</h3>
+          <ul>
+            <li><a href="about.html">Что такое CMS?</a></li>
+            <li><a href="woocommerce.html">WooCommerce</a></li>
+            <li><a href="shopify.html">Shopify</a></li>
+            <li><a href="magento.html">Magento</a></li>
+            <li><a href="comparison.html">Сравнительная таблица</a></li>
+          </ul>
+        </div>
+
+        <div class="widget">
+          <h3>Быстрые факты</h3>
+          <ul>
+            <li><strong>Open Source</strong></li>
+            <li><strong>Enterprise-уровень</strong></li>
+            <li><strong>B2B и маркетплейсы</strong></li>
+            <li><strong>Владелец:</strong> Adobe</li>
+          </ul>
+        </div>
+
+        <div class="widget">
+          <h3>Подписка на новости</h3>
+          <form action="#" method="post">
+            <label class="form-label" for="sub-email">Ваш e-mail</label>
+            <input type="email" id="sub-email" class="form-input"
+                   placeholder="you@example.com" required>
+            <button type="submit" class="btn btn-primary btn-block" style="margin-top:.5rem;">
+              Подписаться
+            </button>
+          </form>
+        </div>
+
+        <div class="widget" style="background:#fff3e0;">
+          <h3>Совет</h3>
+          <p style="margin:0;font-size:.9rem;">
+            Magento стоит выбирать, если вы готовы инвестировать в команду
+            разработчиков и инфраструктуру ради масштабируемости на годы вперёд.
+          </p>
+        </div>
+
+      </aside>
+
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="columns">
+        <div class="column col-4 col-md-6 col-sm-12">
+          <h4>CMS-Hub</h4>
+          <p>Независимый обзор CMS-платформ для электронной коммерции: WooCommerce, Shopify, Magento.</p>
+        </div>
+        <div class="column col-4 col-md-6 col-sm-12">
+          <h4>Разделы</h4>
+          <ul style="list-style:none;padding:0;">
+            <li><a href="about.html">О CMS</a></li>
+            <li><a href="comparison.html">Сравнение</a></li>
+            <li><a href="cases.html">Кейсы</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="column col-4 col-md-6 col-sm-12">
+          <h4>Контакты</h4>
+          <p>Email: <a href="mailto:info@cms-hub.ru">info@cms-hub.ru</a></p>
+          <p>Тел: <a href="tel:+78001234567">+7 (800) 123-45-67</a></p>
+        </div>
+      </div>
+      <div class="copyright">
+        © 2026 CMS-Hub. Все права защищены.
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

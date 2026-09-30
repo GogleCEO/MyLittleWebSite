@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сравнение WooCommerce, Shopify и Magento | CMS-Hub</title>
+  <meta name="description" content="Подробное сравнение трёх популярных CMS для электронной коммерции: WooCommerce, Shopify и Magento. Таблицы по цене, возможностям, сложности и масштабируемости.">
+  <meta name="keywords" content="сравнение CMS, WooCommerce, Shopify, Magento, электронная коммерция">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="columns">
+        <div class="column col-4 col-md-6 col-sm-9">
+          <a href="index.html" class="logo-cms">
+            <img src="img/logo.svg" alt="Логотип CMS-Hub" class="logo-img" width="40" height="40">
+            <span class="logo-text">CMS-Hub</span>
+          </a>
+        </div>
+        <div class="column col-8 col-md-6 col-sm-3">
+          <button class="btn btn-link burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+            <i class="icon icon-menu"></i>
+          </button>
+          <nav class="main-nav" id="mainNav" aria-label="Основная навигация">
+            <ul class="nav">
+              <li class="nav-item"><a href="index.html">Главная</a></li>
+              <li class="nav-item"><a href="aboutCMS.html">О CMS</a></li>
+              <li class="nav-item"><a href="woocommerce.html">WooCommerce</a></li>
+              <li class="nav-item"><a href="shopify.html">Shopify</a></li>
+              <li class="nav-item"><a href="magento.html">Magento</a></li>
+              <li class="nav-item"><a href="comparison.html" class="active">Сравнение</a></li>
+              <li class="nav-item"><a href="cases.html">Кейсы</a></li>
+              <li class="nav-item"><a href="faq.html">FAQ</a></li>
+              <li class="nav-item"><a href="contacts.html">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container main-wrapper">
+    <div class="columns">
+
+      <main class="column col-9 col-md-12">
+
+        <nav aria-label="Хлебные крошки" class="breadcrumbs">
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+            <li class="breadcrumb-item active">Сравнение CMS</li>
+          </ul>
+        </nav>
+
+        <h1>Сравнение WooCommerce, Shopify и Magento</h1>
+
+        <p class="lead">
+          Три платформы — три подхода к электронной коммерции. Ниже — сводные таблицы
+          по ключевым параметрам, которые помогут выбрать подходящую CMS под ваш проект.
+        </p>
+
+        <section aria-labelledby="main-table-title">
+          <h2 id="main-table-title">Основные параметры</h2>
+
+          <table class="comparison">
+            <caption>Сравнение WooCommerce, Shopify и Magento (2026)</caption>
+            <thead>
+              <tr>
+                <th scope="col">Параметр</th>
+                <th scope="col">WooCommerce</th>
+                <th scope="col">Shopify</th>
+                <th scope="col">Magento</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Тип</th>
+                <td>Плагин для WordPress</td>
+                <td>SaaS</td>
+                <td>Open Source / Adobe Commerce</td>
+              </tr>
+              <tr>
+                <th scope="row">Стоимость</th>
+                <td>Бесплатно + хостинг</td>
+                <td>от $29/мес</td>
+                <td>Бесплатно / от $22 000 в год</td>
+              </tr>
+              <tr>
+                <th scope="row">Хостинг</th>
+                <td>Свой</td>
+                <td>Включён</td>
+                <td>Свой или Adobe Cloud</td>
+              </tr>
+              <tr>
+                <th scope="row">Сложность настройки</th>
+                <td>Средняя</td>
+                <td>Низкая</td>
+                <td>Высокая</td>
+              </tr>
+              <tr>
+                <th scope="row">Нужен разработчик</th>
+                <td>Желательно</td>
+                <td>Нет</td>
+                <td>Обязательно</td>
+              </tr>
+              <tr>
+                <th scope="row">Масштабируемость</th>
+                <td>Средняя</td>
+                <td>Средняя</td>
+                <td>Высокая</td>
+              </tr>
+              <tr>
+                <th scope="row">Контроль над кодом</th>
+                <td>Полный</td>
+                <td>Ограниченный</td>
+                <td>Полный</td>
+              </tr>
+              <tr>
+                <th scope="row">Платёжные шлюзы</th>
+                <td>100+</td>
+                <td>100+</td>
+                <td>100+</td>
+              </tr>
+              <tr>
+                <th scope="row">Мобильное приложение</th>
+                <td>Android, iOS</td>
+                <td>Android, iOS</td>
+                <td>Ограниченно</td>
+              </tr>
+              <tr>
+                <th scope="row">Целевая аудитория</th>
+                <td>Малый и средний бизнес</td>
+                <td>Стартапы, SMB</td>
+                <td>Enterprise, B2B</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section aria-labelledby="ease-title">
+          <h2 id="ease-title">Скорость запуска</h2>
+
+          <table class="comparison">
+            <caption>Ориентировочное время запуска магазина</caption>
+            <thead>
+              <tr>
+                <th scope="col">Платформа</th>
+                <th scope="col">Минимальный срок</th>
+                <th scope="col">Средний срок</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">WooCommerce</th>
+                <td>3–5 дней</td>
+                <td>2–4 недели</td>
+              </tr>
+              <tr>
+                <th scope="row">Shopify</th>
+                <td>1 день</td>
+                <td>3–7 дней</td>
+              </tr>
+              <tr>
+                <th scope="row">Magento</th>
+                <td>2–3 недели</td>
+                <td>2–6 месяцев</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section aria-labelledby="cost-title">
+          <h2 id="cost-title">Стоимость владения</h2>
+
+          <table class="comparison">
+            <caption>Ориентировочные расходы в первый год</caption>
+            <thead>
+              <tr>
+                <th scope="col">Статья</th>
+                <th scope="col">WooCommerce</th>
+                <th scope="col">Shopify</th>
+                <th scope="col">Magento</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Лицензия / подписка</th>
+                <td>0 ₽</td>
+                <td>от 25 000 ₽</td>
+                <td>0 ₽ / от 2 000 000 ₽</td>
+              </tr>
+              <tr>
+                <th scope="row">Хостинг</th>
+                <td>от 5 000 ₽</td>
+                <td>Включён</td>
+                <td>от 30 000 ₽</td>
+              </tr>
+              <tr>
+                <th scope="row">Разработка и настройка</th>
+                <td>от 50 000 ₽</td>
+                <td>от 20 000 ₽</td>
+                <td>от 500 000 ₽</td>
+              </tr>
+              <tr>
+                <th scope="row">Поддержка</th>
+                <td>от 10 000 ₽/мес</td>
+                <td>Включена</td>
+                <td>от 100 000 ₽/мес</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section aria-labelledby="verdict-title">
+          <h2 id="verdict-title">Краткий вердикт</h2>
+
+          <div class="card-grid">
+            <article class="cms-card">
+              <h3>WooCommerce</h3>
+              <p>
+                Для тех, кто хочет <strong>бесплатную</strong> и гибкую платформу
+                с полным контролем над кодом и данными. Оптимален для блогов,
+                небольших и средних магазинов.
+              </p>
+            </article>
+
+            <article class="cms-card">
+              <h3>Shopify</h3>
+              <p>
+                Для тех, кому важна <strong>скорость запуска</strong> и отсутствие
+                технических забот. Идеален для стартапов, тестирования ниш
+                и международной торговли.
+              </p>
+            </article>
+
+            <article class="cms-card">
+              <h3>Magento</h3>
+              <p>
+                Для <strong>крупного бизнеса</strong>, B2B и маркетплейсов,
+                где нужны масштабируемость, сложные сценарии и готовность
+                инвестировать в команду и инфраструктуру.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <nav class="cms-nav" aria-label="Переход между разделами">
+          <a href="magento.html" class="btn btn-link">← Magento</a>
+          <a href="cases.html" class="btn btn-primary">Далее: Кейсы →</a>
+        </nav>
+
+      </main>
+
+      <aside class="column col-3 col-md-12">
+
+        <div class="widget">
+          <h3>Навигация по разделу</h3>
+          <ul>
+            <li><a href="about.html">Что такое CMS?</a></li>
+            <li><a href="woocommerce.html">WooCommerce</a></li>
+            <li><a href="shopify.html">Shopify</a></li>
+            <li><a href="magento.html">Magento</a></li>
+            <li><a href="comparison.html">Сравнительная таблица</a></li>
+          </ul>
+        </div>
+
+        <div class="widget">
+          <h3>Быстрый выбор</h3>
+          <ul>
+            <li><strong>Малый бюджет</strong> — WooCommerce</li>
+            <li><strong>Быстрый старт</strong> — Shopify</li>
+            <li><strong>Крупный бизнес</strong> — Magento</li>
+          </ul>
+        </div>
+
+        <div class="widget">
+          <h3>Подписка на новости</h3>
+          <form action="#" method="post">
+            <label class="form-label" for="sub-email">Ваш e-mail</label>
+            <input type="email" id="sub-email" class="form-input"
+                   placeholder="you@example.com" required>
+            <button type="submit" class="btn btn-primary btn-block" style="margin-top:.5rem;">
+              Подписаться
+            </button>
+          </form>
+        </div>
+
+      </aside>
+
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="columns">
+        <div class="column col-4 col-md-6 col-sm-12">
+          <h4>CMS-Hub</h4>
+          <p>Независимый обзор CMS-платформ для электронной коммерции: WooCommerce, Shopify, Magento.</p>
+        </div>
+        <div class="column col-4 col-md-6 col-sm-12">
+          <h4>Разделы</h4>
+          <ul style="list-style:none;padding:0;">
+            <li><a href="about.html">О CMS</a></li>
+            <li><a href="comparison.html">Сравнение</a></li>
+            <li><a href="cases.html">Кейсы</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="column col-4 col-md-6 col-sm-12">
+          <h4>Контакты</h4>
+          <p>Email: <a href="mailto:info@cms-hub.ru">info@cms-hub.ru</a></p>
+          <p>Тел: <a href="tel:+78001234567">+7 (800) 123-45-67</a></p>
+        </div>
+      </div>
+      <div class="copyright">
+        © 2026 CMS-Hub. Все права защищены.
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
