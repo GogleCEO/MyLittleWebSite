@@ -3,7 +3,7 @@
 ## Есть два варианта запуска сайта:
 
 - Локально, через открытие файла **index.html**
-- Через GitHub Pages 
+- Через GitHub Pages https://gogleceo.github.io/MyLittleWebSite/
 
 ## Используемые технологии:
 
